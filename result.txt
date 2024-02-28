@@ -1,0 +1,39 @@
+IPFS URL for the metadata: ipfs://bafyreig6kp6ap5wxfdyva443apoudw7grnbst24e7g7laig5nda4fe4iiq/metadata.json
+metadata.json contents:
+ {
+  name: 'woman.png',
+  description: 'a woman',
+  image: URL {
+    href: 'ipfs://bafybeif4jwzwecbzsmwmydhdvgt7gfbtn3k7lq3734lntczktas4u7w6ie/blob',
+    origin: 'null',
+    protocol: 'ipfs:',
+    username: '',
+    password: '',
+    host: 'bafybeif4jwzwecbzsmwmydhdvgt7gfbtn3k7lq3734lntczktas4u7w6ie',
+    hostname: 'bafybeif4jwzwecbzsmwmydhdvgt7gfbtn3k7lq3734lntczktas4u7w6ie',
+    port: '',
+    pathname: '/blob',
+    search: '',
+    searchParams: URLSearchParams {},
+    hash: ''
+  }
+}
+metadata.json with IPFS gateway URLs:
+ {
+  name: 'woman.png',
+  description: 'a woman',
+  image: URL {
+    href: 'https://nftstorage.link/ipfs/bafybeif4jwzwecbzsmwmydhdvgt7gfbtn3k7lq3734lntczktas4u7w6ie/blob',
+    origin: 'https://nftstorage.link',
+    protocol: 'https:',
+    username: '',
+    password: '',
+    host: 'nftstorage.link',
+    hostname: 'nftstorage.link',
+    port: '',
+    pathname: '/ipfs/bafybeif4jwzwecbzsmwmydhdvgt7gfbtn3k7lq3734lntczktas4u7w6ie/blob',
+    search: '',
+    searchParams: URLSearchParams {},
+    hash: ''
+  }
+}
