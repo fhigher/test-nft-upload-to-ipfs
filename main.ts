@@ -6,7 +6,7 @@ async function main() {
     // metadata.json -> cid ipfs://bafyreig6kp6ap5wxfdyva443apoudw7grnbst24e7g7laig5nda4fe4iiq/metadata.json
     // woman.png -> cid ipfs://bafybeif4jwzwecbzsmwmydhdvgt7gfbtn3k7lq3734lntczktas4u7w6ie/blob
     try {
-        const metadata = await handler.upload("https://cdn.pixabay.com/photo/2017/07/19/10/55/woman-2518758_960_720.png", "woman.png", "a woman")
+        const metadata = await handler.upload("woman.png", "a woman", "https://cdn.pixabay.com/photo/2017/07/19/10/55/woman-2518758_960_720.png")
         if (metadata) {
             console.log('IPFS URL for the metadata:', metadata.url)
             console.log('metadata.json contents:\n', metadata.data.image.href)
