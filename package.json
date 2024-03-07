@@ -2,13 +2,22 @@
   "name": "test-nft",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test-server": "tsx ./src/ucan-auth/ucan-server-test.ts",
+    "test-aes": "tsx ./src/aes-test.ts",
+    "basic": "tsx ./src/basic-auth/main.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nft.storage": "^7.1.1"
+    "@noble/ciphers": "^0.5.1",
+    "@noble/hashes": "^1.3.3",
+    "nft.storage": "^7.1.1",
+    "node-fetch": "^3.3.2",
+    "ucan-storage": "^1.3.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.1"
   }
 }
