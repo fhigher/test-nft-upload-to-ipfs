@@ -4,20 +4,25 @@
   "description": "",
   "main": "",
   "scripts": {
-    "test-server": "tsx ./src/ucan-auth/ucan-server-test.ts",
+    "test-token-manager": "tsx ./src/ucan-auth/token-manager-test.ts",
     "test-aes": "tsx ./src/aes-test.ts",
-    "basic": "tsx ./src/basic-auth/main.ts"
+    "run-basic": "tsx ./src/basic-auth/main.ts",
+    "run-server": "tsx ./src/ucan-auth/bin/server.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@koa/router": "^12.0.1",
     "@noble/ciphers": "^0.5.1",
     "@noble/hashes": "^1.3.3",
+    "koa": "^2.15.0",
+    "koa-body": "^6.0.1",
     "nft.storage": "^7.1.1",
     "node-fetch": "^3.3.2",
     "ucan-storage": "^1.3.0"
   },
   "devDependencies": {
+    "@types/koa__router": "^12.0.4",
     "tsx": "^4.7.1"
   }
 }
